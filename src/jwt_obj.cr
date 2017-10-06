@@ -57,7 +57,7 @@ module JWT
     # end
     #
     # session = Session.new("bar")
-    # encoded = session.encode("secret", "none) do
+    # encoded = session.encode("secret", "none") do
     #   issued_at Time.now
     #   issuer "z64"
     #   audience ["GitHub", "snapcase"]
