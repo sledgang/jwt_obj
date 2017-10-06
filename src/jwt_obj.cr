@@ -83,7 +83,9 @@ module JWT
       io.rewind
 
       IO.copy(io, result_io, object_end - 1)
-      result_io.write(", ".to_slice)
+      if io.pos > 1
+        result_io << ','
+      end
       io.skip(2)
       IO.copy(io, result_io)
 
