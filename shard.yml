@@ -1,0 +1,13 @@
+name: jwt_obj
+version: 0.1.0
+
+dependencies:
+  jwt:
+    github: crystal-community/jwt
+
+authors:
+  - Zac Nowicki <zachnowicki@gmail.com>
+
+crystal: 0.23.1
+
+license: MIT
