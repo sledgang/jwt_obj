@@ -2,6 +2,8 @@
 
 `jwt_obj` adds a high level mixin for your classes for easily encoding your objects with JWT claims.
 
+Implements [crystal-community/jwt](https://github.com/crystal-community/jwt). See their `README.md` for more details on what JWT is and how it works.
+
 ## Installation
 
 Add this to your application's `shard.yml`:
@@ -13,6 +15,8 @@ dependencies:
 ```
 
 ## Usage
+
+**See [JWT's supported reserved claims](https://github.com/crystal-community/jwt#supported-reserved-claim-names) for details on what each claim is for.**
 
 ```crystal
 require "jwt_obj"
